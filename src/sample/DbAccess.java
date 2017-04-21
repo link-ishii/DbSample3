@@ -12,10 +12,10 @@ public class DbAccess {
     private String driver, connectURL, id, pass;
 
     public DbAccess() {
-        connectURL = "jdbc:mysql://133.130.100.142:3306/linkdb";
+        connectURL = "jdbc:mysql://***.***.***.***:3306/linkdb";
         driver = "com.mysql.jdbc.Driver";
-        id = "linkroad";
-        pass = "Akira1203!";
+        id = "******";
+        pass = "******!";
     }
 
     public synchronized void ConnectOpen() throws Exception {
